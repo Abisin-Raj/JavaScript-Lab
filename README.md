@@ -106,3 +106,4 @@ Open 'Number Checker.html', enter a number in the prompt, and see the alert.
 
 ---
 
+## Password Validation
