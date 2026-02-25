@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Email Validator</title>
+</head>
+
+<body>
+    <h2>Email Validator</h2>
+    <input type="text" id="emailInput" placeholder="Enter your email">
+    <button onclick="checkEmail()">Validate</button>
+    <p id="result"></p>
+
+    <script>
+        function isValidEmail(email) {
+            if (!email.includes("@") || !email.includes(".")) {
+                return false;
+            }
+
+            let parts = email.split("@");
+            if (parts.length !== 2) {
+                return false;
+            }
+
+            let beforeAt = parts[0];
+            let afterAt = parts[1];
+
+            if (beforeAt.length < 1 || afterAt.length < 1) {
+                return false;
+            }
+
+            let dotIndex = afterAt.lastIndexOf(".");
+            if (dotIndex === -1 || dotIndex === 0 || dotIndex === afterAt.length - 1) {
+                return false;
+            }
+
+            let afterDot = afterAt.substring(dotIndex + 1);
+            if (afterDot.length < 2) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function checkEmail() {
+            let email = document.getElementById("emailInput").value;
+            let result = isValidEmail(email);
+            document.getElementById("result").innerHTML = result
+                ? "Valid Email!"
+                : "Invalid Email!";
+        }
+    </script>
+</body>
+
+</html>

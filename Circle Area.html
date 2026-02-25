@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>Circle Area</title>
+</head>
+
+<body>
+    <label>Enter the radius of the circle: </label>
+    <input type="number" placeholder="radius" id="radius">
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            const radius = parseFloat(document.getElementById("radius").value);
+            const resultElement = document.getElementById("result");
+
+            if (isNaN(radius) || radius < 0) {
+                resultElement.textContent = "Please enter a valid, non-negative number.";
+                return;
+            }
+
+            const circumference = (2 * Math.PI * radius);
+            const area = (Math.PI * radius ** 2);
+
+            resultElement.innerHTML = `Circumference: ${circumference.toFixed(2)} <br> Area: ${area.toFixed(2)}`;
+        }
+    </script>
+</body>
+
+</html>
