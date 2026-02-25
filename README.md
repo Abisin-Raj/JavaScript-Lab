@@ -88,3 +88,8 @@ Finds the Nth prime number in the sequence of primes.
 - Supports any positive integer input
 - Highlights the result in bold
 
+### Usage
+Enter a value for N in 'Nth prime.html' and click 'Find Prime'.
+
+---
+
