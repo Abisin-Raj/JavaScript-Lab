@@ -10,3 +10,8 @@ A simple tool to change the background color of the page dynamically using JavaS
 - Interactive buttons for color selection
 - Lightweight and fast
 
+### Usage
+Open 'Background Changer.html' and click on the color buttons to change the background.
+
+---
+
