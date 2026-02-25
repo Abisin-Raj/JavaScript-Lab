@@ -31,3 +31,8 @@ Enter two numbers in 'Calculator.html' and select an operation to see the result
 ## Circle Area
 Calculates the area and circumference of a circle based on the radius.
 
+### Features
+- Area calculation using Math.PI
+- Circumference calculation
+- Result formatting to 2 decimal places
+
