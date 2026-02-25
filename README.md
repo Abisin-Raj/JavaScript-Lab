@@ -101,3 +101,8 @@ Checks if a number is Perfect, Abundant, or Deficient.
 - Number classification logic
 - Interactive prompt input
 
+### Usage
+Open 'Number Checker.html', enter a number in the prompt, and see the alert.
+
+---
+
