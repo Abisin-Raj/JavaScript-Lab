@@ -122,3 +122,8 @@ Enter passwords in 'Password Validation.html' and click 'Submit' to validate.
 ## Triangle
 Determines if three sides can form a triangle and identifies its type.
 
+### Features
+- Triangle inequality validation
+- Identifies Equilateral, Isosceles, or Scalene
+- Calculates area using Heron's formula
+
