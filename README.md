@@ -83,3 +83,8 @@ Provide a number and a limit in 'Multiplication.html' and click 'Find'.
 ## Nth prime
 Finds the Nth prime number in the sequence of primes.
 
+### Features
+- Efficient primality testing
+- Supports any positive integer input
+- Highlights the result in bold
+
