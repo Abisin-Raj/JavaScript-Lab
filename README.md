@@ -16,3 +16,5 @@ Open 'Background Changer.html' and click on the color buttons to change the back
 ---
 
 ## Calculator
+A functional calculator that performs basic arithmetic operations.
+
