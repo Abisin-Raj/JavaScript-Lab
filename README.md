@@ -44,3 +44,8 @@ Enter the radius in 'Circle Area.html' and click 'Calculate'.
 ## Clock
 A live digital clock that shows the current time.
 
+### Features
+- Real-time clock updates every second
+- Padded numbers (e.g., 01:05:09)
+- Self-updating interval
+
