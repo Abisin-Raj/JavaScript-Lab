@@ -127,3 +127,8 @@ Determines if three sides can form a triangle and identifies its type.
 - Identifies Equilateral, Isosceles, or Scalene
 - Calculates area using Heron's formula
 
+### Usage
+Enter three side lengths in 'Triangle.html' and click 'Check Triangle'.
+
+---
+
