@@ -96,3 +96,8 @@ Enter a value for N in 'Nth prime.html' and click 'Find Prime'.
 ## Number Checker
 Checks if a number is Perfect, Abundant, or Deficient.
 
+### Features
+- Sum of divisors calculation
+- Number classification logic
+- Interactive prompt input
+
