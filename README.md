@@ -114,3 +114,8 @@ Verifies password strength and matching confirmation.
 - Password and Confirm match verification
 - Dynamic message feedback in red/green
 
+### Usage
+Enter passwords in 'Password Validation.html' and click 'Submit' to validate.
+
+---
+
