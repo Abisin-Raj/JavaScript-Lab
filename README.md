@@ -75,3 +75,8 @@ Generates a multiplication table for a given number up to a specified limit.
 - Adjustable limit and multiplier
 - Clean vertical layout
 
+### Usage
+Provide a number and a limit in 'Multiplication.html' and click 'Find'.
+
+---
+
