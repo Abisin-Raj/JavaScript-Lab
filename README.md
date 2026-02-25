@@ -36,3 +36,8 @@ Calculates the area and circumference of a circle based on the radius.
 - Circumference calculation
 - Result formatting to 2 decimal places
 
+### Usage
+Enter the radius in 'Circle Area.html' and click 'Calculate'.
+
+---
+
