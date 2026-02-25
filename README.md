@@ -28,3 +28,4 @@ Enter two numbers in 'Calculator.html' and select an operation to see the result
 
 ---
 
+## Circle Area
