@@ -109,3 +109,8 @@ Open 'Number Checker.html', enter a number in the prompt, and see the alert.
 ## Password Validation
 Verifies password strength and matching confirmation.
 
+### Features
+- Length requirement check (8+ chars)
+- Password and Confirm match verification
+- Dynamic message feedback in red/green
+
