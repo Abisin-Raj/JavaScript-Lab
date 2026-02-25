@@ -62,3 +62,8 @@ Validates email addresses based on format rules.
 - Splits domain and username for verification
 - Custom validation logic without regex
 
+### Usage
+Input an email in 'Email.html' and click 'Validate'.
+
+---
+
