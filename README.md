@@ -23,3 +23,8 @@ A functional calculator that performs basic arithmetic operations.
 - Input validation for numbers
 - Division by zero error handling
 
+### Usage
+Enter two numbers in 'Calculator.html' and select an operation to see the result.
+
+---
+
