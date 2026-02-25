@@ -68,3 +68,5 @@ Input an email in 'Email.html' and click 'Validate'.
 ---
 
 ## Multiplication
+Generates a multiplication table for a given number up to a specified limit.
+
