@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Triangle Checker</title>
+</head>
+
+<body>
+    <h2>Triangle Checker</h2>
+    <label>Side A: </label><input type="number" id="sideA"><br><br>
+    <label>Side B: </label><input type="number" id="sideB"><br><br>
+    <label>Side C: </label><input type="number" id="sideC"><br><br>
+    <button onclick="checkTriangle()">Check Triangle</button>
+    <h3>Result:</h3>
+    <div>
+        <p id="output"></p>
+    </div>
+
+    <script>
+        function checkTriangle() {
+            let a = parseFloat(document.getElementById("sideA").value);
+            let b = parseFloat(document.getElementById("sideB").value);
+            let c = parseFloat(document.getElementById("sideC").value);
+            let output = document.getElementById("output");
+
+            if (isNaN(a) || isNaN(b) || isNaN(c)) {
+                output.innerHTML = "Please enter all three sides.";
+                return;
+            }
+
+            if (a <= 0 || b <= 0 || c <= 0) {
+                output.innerHTML = "Side lengths must be positive numbers.";
+                return;
+            }
+
+            if (a + b > c && a + c > b && b + c > a) {
+                let type = "";
+                if (a === b && b === c) {
+                    type = "Equilateral";
+                } else if (a === b || b === c || a === c) {
+                    type = "Isoceles";
+                } else {
+                    type = "Scalene";
+                }
+
+                let s = (a + b + c) / 2;
+                let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+
+                output.innerHTML = `The sides form a triangle.<br>
+                    Type: <b>${type}</b><br>
+                    Area: <b>${area.toFixed(2)}</b>`;
+            } else {
+                output.innerHTML = "The given sides cannot form a triangle.";
+            }
+        }
+    </script>
+</body>
+
+</html>
