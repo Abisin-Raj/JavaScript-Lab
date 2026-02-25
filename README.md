@@ -93,3 +93,4 @@ Enter a value for N in 'Nth prime.html' and click 'Find Prime'.
 
 ---
 
+## Number Checker
