@@ -57,3 +57,8 @@ Simply open 'Clock.html' to view the digital clock.
 ## Email
 Validates email addresses based on format rules.
 
+### Features
+- Checks for @ and . characters
+- Splits domain and username for verification
+- Custom validation logic without regex
+
