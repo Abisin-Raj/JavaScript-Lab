@@ -49,3 +49,8 @@ A live digital clock that shows the current time.
 - Padded numbers (e.g., 01:05:09)
 - Self-updating interval
 
+### Usage
+Simply open 'Clock.html' to view the digital clock.
+
+---
+
