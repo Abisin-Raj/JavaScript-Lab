@@ -119,3 +119,4 @@ Enter passwords in 'Password Validation.html' and click 'Submit' to validate.
 
 ---
 
+## Triangle
