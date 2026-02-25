@@ -55,3 +55,5 @@ Simply open 'Clock.html' to view the digital clock.
 ---
 
 ## Email
+Validates email addresses based on format rules.
+
