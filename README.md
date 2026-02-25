@@ -107,3 +107,5 @@ Open 'Number Checker.html', enter a number in the prompt, and see the alert.
 ---
 
 ## Password Validation
+Verifies password strength and matching confirmation.
+
