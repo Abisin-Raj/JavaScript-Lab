@@ -42,3 +42,5 @@ Enter the radius in 'Circle Area.html' and click 'Calculate'.
 ---
 
 ## Clock
+A live digital clock that shows the current time.
+
